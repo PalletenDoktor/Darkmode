@@ -6,14 +6,17 @@ Darkmode für Younow
 Grüße an Souldrinker und Schwester
 
 
+# Install
+
 Requirements:
 
- - Chrome + tampermonkey plugin
+ - Chrome + Tampermonkey plugin
  - Firefox + Greasemonkey plugin
 
 
-
-Install dm.user.js: 
+install dm.user.js: 
 
 https://github.com/lausbub/lausbub.github.io/raw/master/dm.user.js
+
+
 

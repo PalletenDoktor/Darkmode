@@ -108,7 +108,6 @@ window.onload = function()
 
 	setInterval(function(){
 		if (window.darkMode == null) window.darkMode = {};
-
 		var expire = window.darkMode.premiumExpire;
 	}, 1000);
 
@@ -132,9 +131,8 @@ window.onload = function()
 			}
 			if (data["role"] != null)
 				window.darkMode.role = data["role"];
-			if (data["premiumExpire"] != null)
-				window.darkMode.premiumExpire = data["premiumExpire"];
 
+			
 			window.localStorage.setItem('sessID', window.darkMode.sessionID);
 			window.statusChangeStatus("Authorized!");
 			window.hideModal();

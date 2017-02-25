@@ -7,6 +7,7 @@ Grüße an Souldrinker und Schwester
 
 
 Requirements:
- -Chrome + tampermonkey plugin
+
+ - Chrome + tampermonkey plugin
  - Firefox + Greasemonkey plugin
 

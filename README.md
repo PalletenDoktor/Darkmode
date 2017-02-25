@@ -14,7 +14,7 @@ Requirements:
  - Firefox + Greasemonkey plugin
 
 
-install dm.user.js: 
+install dm.user.js : 
 
 https://github.com/lausbub/lausbub.github.io/raw/master/dm.user.js
 

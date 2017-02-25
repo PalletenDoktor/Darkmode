@@ -165,7 +165,7 @@ window.onload = function()
 
 	window.dmSocket.on('connect', function() {
 		window.statusChangeStatus("Authorizing...");
-		authorize();
+//		authorize();
 	});
 
 	var authorize = function()

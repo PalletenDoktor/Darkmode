@@ -10,7 +10,7 @@ var styleText = "body {background: #111215 !important;} "+
 "#darkModeModal {background: #111215; position: absolute; width:100%; height:100%; left: 0; top: 0; z-index:9999;}"+
 "#update { color: #ddd; width: 100%; padding: 20px; height: 100%; text-align: center; position: fixed; top: 0; left: 0; z-index: 10000; }"+
 "#update img { position: fixed; bottom: 0px; height: 60%; right: 0px; }"+
-"#status {-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,70,0.75);box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);z-index: 10000; text-align: center; border-radius: 6px; line-height: 40px;position: absolute; top: -40px; color:#ddd; font-size:16px; height: 40px; width: 400px; margin-left: -200px; left: 50%;background:#333;border:1px solid #000;}";
+"#status {-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,70,0.75);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,70,0.75);box-shadow: 0px 0px 5px 0px rgba(0,0,70,0.75);z-index: 10000; text-align: center; border-radius: 6px; line-height: 40px;position: absolute; top: -40px; color:#ddd; font-size:16px; height: 40px; width: 400px; margin-left: -200px; left: 50%;background:#333;border:1px solid #000;}";
 
 style.type = 'text/css';
 if (style.styleSheet){
@@ -110,25 +110,6 @@ window.onload = function()
 		if (window.darkMode == null) window.darkMode = {};
 
 		var expire = window.darkMode.premiumExpire;
-		if (expire != null)
-		{
-			var timestamp = (new Date().getTime() / 1000) + window.darkMode.timestampDiff;
-			var diff = expire - timestamp;
-			if (diff > 0)
-			{
-				window.darkMode.isPremium = true;
-				var seconds = Math.floor(diff % 60);
-				var minutes = Math.floor((diff / 60) % 60);
-				var hours = Math.floor((diff / 3600) % 24);
-				var days = Math.floor(diff / (3600 * 24));
-				window.darkMode.timeLeft = diff;
-				window.darkMode.timeLeftString = days+"d "+hours+"h "+minutes+"m "+seconds+"s";
-			}
-			else
-			{
-				window.darkMode.isPremium = true;
-			}
-		}
 	}, 1000);
 
 	var scriptAdded = false;

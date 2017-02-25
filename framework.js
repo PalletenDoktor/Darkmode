@@ -6,8 +6,8 @@ socket.on("connect",function(){socket.id=self.engine.id});if(this.autoConnect){o
 var head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
 
-var styleText = "body {background: #111215 !important;} "+
-"#darkModeModal {background: #111215; position: absolute; width:100%; height:100%; left: 0; top: 0; z-index:9999;}"+
+var styleText = "body {background: #051f6d !important;} "+
+"#darkModeModal {background: #051f6d; position: absolute; width:100%; height:100%; left: 0; top: 0; z-index:9999;}"+
 "#update { color: #ddd; width: 100%; padding: 20px; height: 100%; text-align: center; position: fixed; top: 0; left: 0; z-index: 10000; }"+
 "#update img { position: fixed; bottom: 0px; height: 60%; right: 0px; }"+
 "#status {-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);z-index: 10000; text-align: center; border-radius: 6px; line-height: 40px;position: absolute; top: -40px; color:#ddd; font-size:16px; height: 40px; width: 400px; margin-left: -200px; left: 50%;background:#333;border:1px solid #000;}";

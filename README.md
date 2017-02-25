@@ -11,3 +11,9 @@ Requirements:
  - Chrome + tampermonkey plugin
  - Firefox + Greasemonkey plugin
 
+
+
+Install dm.user.js: 
+
+https://github.com/lausbub/lausbub.github.io/raw/master/dm.user.js
+

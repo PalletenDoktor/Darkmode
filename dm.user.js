@@ -52,7 +52,7 @@ if (window.chrome)
 
     if (base.endsWith(".html"))
     {
-        document.body.style.background = "#222222";
+        document.body.style.background = "#c43a3a";
         document.body.style.color = "#ffffff";
         document.body.innerHTML = "Loading Dark Mode...";
         var oldURL = GM_getValue("redirectFrom");
